@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: sba-auth
-          image: dongf9527/sba-auth:v3
+          image: dongf9527/sba-auth:v4
           ports:
             - name: http-port
               containerPort: 9996
